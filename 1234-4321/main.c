@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include<math.h>
+void sum(){
+	printf("hello\n");
+}
+
 int main()
 {
     int r = 0;
-    int n=120;
-  for(r=0;r<10;r++){
-  printf("%d", r);
+    for(r=0;r<10;r++){
+	    sum();
   }
   
 }
